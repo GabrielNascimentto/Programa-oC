@@ -24,19 +24,19 @@ int main(){
     scanf(" %s", &carta1.Codigo); 
 
     printf("Informe o nome da cidade: ");
-    scanf("%s", &carta1.NomeCidade);
+    scanf(" %s", &carta1.NomeCidade);
 
     printf("Informe a população da cidade: ");
-    scanf("%d", &carta1.Populacao);
+    scanf(" %d", &carta1.Populacao);
 
     printf("Informe a área da cidade: ");
-    scanf("%f", &carta1.Area);
+    scanf(" %f", &carta1.Area);
 
     printf("Informe o PIB da cidade: ");
-    scanf("%f", &carta1.PIB); 
+    scanf(" %f", &carta1.PIB); 
 
     printf("Informe a quantidade de pontos turísticos: ");
-    scanf("%d", &carta1.PontosTuristicos);
+    scanf(" %d", &carta1.PontosTuristicos);
 
 
 
@@ -49,19 +49,19 @@ int main(){
     scanf(" %s", &carta2.Codigo); 
 
     printf("Informe o nome da cidade: ");
-    scanf("%s", &carta2.NomeCidade);
+    scanf(" %s", &carta2.NomeCidade);
 
     printf("Informe a população da cidade: ");
-    scanf("%d", &carta2.Populacao);
+    scanf(" %d", &carta2.Populacao);
 
     printf("Informe a área da cidade: ");
     scanf("%f", &carta2.Area);
 
     printf("Informe o PIB da cidade: ");
-    scanf("%f", &carta2.PIB); 
+    scanf(" %f", &carta2.PIB); 
 
     printf("Informe a quantidade de pontos turísticos: ");
-    scanf("%d", &carta2.PontosTuristicos);
+    scanf(" %d", &carta2.PontosTuristicos);
 
     //Exibição dos dados
     printf("\nCarta 1: \n");
